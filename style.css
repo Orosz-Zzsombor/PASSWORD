@@ -1,0 +1,64 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+.password-display {
+    font-size: 20px;
+    background-color: #3c3c3c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.password-display button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: none;
+    color: #0f0;
+    cursor: pointer;
+}
+.options {
+    margin: 10px 0;
+}
+.options label {
+    display: block;
+    margin: 5px 0;
+}
+.generate-btn {
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.strength {
+    margin-top: 10px;
+}
+.strength div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+    background-color: #3c3c3c;
+    border-radius: 3px;
+}
+.strength .active {
+    background-color: #0f0;
+}
